@@ -13,14 +13,20 @@ The object is currently held by an Allegro hand. Our aim is to predict the shape
 # Dataset
 For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and download the training dataset for problem statement 1 and 2.
 # Description of the Files
-There are 4 folders which are 
--report 
--
+
+-requirements.txt, this contains the requirements to load the dependent modules for your scripts. Install the pacakges in requirements.txt by typing the command **pip -r requirements.txt**
+
+There are 5 folders which are 
+- report, 
+- neo4j_graphs,
+- presentation,
+- training,
+- testing,
 - task1.py, this script contains the code that reads the test set  and predicts the specified output for Task Problem Statement I: Slip Detection and Force Estimation in CSV format (one per line). The format of test set will be same as pre-evaluation dataset (i.e., the path will be the root folder containing all CSV files in the testset)
 
 - task2.py, this script contains the code that reads the test set and predicts the specified output for Task Problem Statement II: Object Detection in CSV format (one per line). A sample output is here. The format of test set will be same as pre-evaluation dataset (i.e., the path will be the complete path to ONE AND ONLY CSV file in the testset)
 
--requirements.txt, this contains the requirements to load the dependent modules for your scripts.
+
 
  - task1_training.py, this script contains the code to read a train set and train a model with the data that must be saved/dumped as ./model_checkpoint_task1
  
