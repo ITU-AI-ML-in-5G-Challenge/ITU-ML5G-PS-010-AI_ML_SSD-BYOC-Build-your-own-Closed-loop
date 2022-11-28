@@ -5,7 +5,7 @@ This repository contains the code and description of team AI_ML_SSD for 2022 ITU
 
 # Dataset
 For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and download the training dataset for problem statement 1 and 2.
-# Use of the Files
+# Description of the Files
 
 - task1.py, this script contains the code that reads the test set  and predicts the specified output for Task Problem Statement I: Slip Detection and Force Estimation in CSV format (one per line). The format of test set will be same as pre-evaluation dataset (i.e., the path will be the root folder containing all CSV files in the testset)
 
