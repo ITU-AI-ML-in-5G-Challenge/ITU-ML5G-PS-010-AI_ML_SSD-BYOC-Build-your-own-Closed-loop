@@ -14,7 +14,7 @@ The object is currently held by an Allegro hand. Our aim is to predict the shape
 For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and download the training dataset for problem statement 1 and 2.
 # Description of the Files
 
-- requirements.txt, this contains the requirements to load the dependent modules for your scripts. Install the pacakges in requirements.txt by typing the command **pip -r requirements.txt**
+- requirements.txt this contains the requirements to load the dependent modules for your scripts. Install the pacakges in requirements.txt by typing the command **pip -r requirements.txt**
 
 ### There are 5 folders which are 
 - report, 
