@@ -1,10 +1,10 @@
 # ITU-ML5G-PS-010-AI_ML_SSD-BYOC-Build-your-own-Closed-loop
 This repository contains the code and description of team AI_ML_SSD for 2022 ITU AI/ML in 5G Challenge. We identified 2 problems  based on the Low Latency Closed Loop between the haptic gloves and algorithms and the real robotic hand (Allegro Hand) using MEC (Multi Edge Computing).
 
-## Slip Detection (and Force Estimation)
+## - Slip Detection (and Force Estimation)
 Given an object being held by an allegro hand, the object may tend to slip from the grip. Using ML models, our goal is to figure out if the object is slipping out of our hands and getting crumpled.  We take the time-series data of the Allegro hand, which includes the force and angle made by the Allegro hand's sixteen actuators with the object, as well as the mass and shape of the object. The values of slip and crumple can either be zero, which means the object is not slipping or crumpling. If the value is one, this means the object is slipping or crumpling. This output is provided for every instance of the given data. If an ML model can predict if the object is slipping and crumpling for every instance, then we can change the force and angle accordingly and make the hand balance the object. For the time being, the use case is to detect slip and crumple. Later, this approach can be extended to changing the force and angle to control the hand so the object is not slipping or crumpling using ML. Slip and crumple detection is very useful for many tasks. For example, if a wire is being connected remotely using the allegro hand, it may slip if not enough force is used to grip it, and if too much force is used, the object will be deformed, etc. The same things can be considered when performing an operation remotely.
  
-## Object Detection
+## - Object Detection
 The object is currently held by an Allegro hand. Our aim is to predict the shape of the object from 13 different shapes using an ML model. So, the ML model is given the force and angle that the object has on the sixteen actuators of the Allegro hand, as well as the mass of the object. The shape of the object could be a sphere, cube, or cuboid with different dimensions. This is very helpful because if the allegro hand can figure out the shape of the object, it can easily grab it just right.
 
 
