@@ -36,7 +36,7 @@ For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and do
 
  
 
-# How to run the files 
+# How to run the codes 
 
 #### python3 task1.py --model_path ./model_checkpoint1 --input_data /path/to/testset/directory --output ./path/to/predictions/directory
 
