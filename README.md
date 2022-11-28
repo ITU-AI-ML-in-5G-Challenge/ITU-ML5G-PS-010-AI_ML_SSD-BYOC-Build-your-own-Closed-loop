@@ -76,4 +76,6 @@ For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and do
 --input_data argument contains the path to the training set. Your script must parse this argument and be able to read input from this path. The format of the input is csv (exactly the same as training dataset)
 
 --model_path argument contains the path where the model checkpoint will be dumped.
+# Demo
+Link for the demo of the models for problem statement 1 and 2. https://drive.google.com/drive/u/2/folders/1Vih2QWYcVxqYS6VP-sjBcO-28p7mEaP8
 
