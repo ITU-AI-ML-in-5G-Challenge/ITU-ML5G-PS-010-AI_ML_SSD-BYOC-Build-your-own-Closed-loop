@@ -1,5 +1,5 @@
 
-# How to run the codes 
+# How to run the code
 
 #### python3 task1.py --model_path ./model_checkpoint1 --input_data /path/to/testset/directory --output ./path/to/predictions/directory
 
