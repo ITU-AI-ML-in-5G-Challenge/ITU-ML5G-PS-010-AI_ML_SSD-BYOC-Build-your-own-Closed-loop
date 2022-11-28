@@ -14,15 +14,16 @@ The object is currently held by an Allegro hand. Our aim is to predict the shape
 For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and download the training dataset for problem statement 1 and 2.
 # Description of the Files
 
-- requirements.txt this contains the requirements to load the dependent modules for your scripts. Install the pacakges in requirements.txt by typing the command **pip -r requirements.txt**
+- **requirements.txt**- This contains the requirements to load the dependent modules for your scripts. Install the pacakges in requirements.txt by typing the command **pip -r requirements.txt**
 
 ### There are 5 folders which are 
-- report, 
-- neo4j_graphs,
-- presentation,
-- training,
-- testing,
-- task1.py, this script contains the code that reads the test set  and predicts the specified output for Task Problem Statement I: Slip Detection and Force Estimation in CSV format (one per line). The format of test set will be same as pre-evaluation dataset (i.e., the path will be the root folder containing all CSV files in the testset)
+- **report** - Contans the report of our group  **AI_ML_SSD** for **2022 ITU AI/ML in 5G Challenge**.
+- **neo4j_graphs** - Conatins the code needed to generate the graphs.
+- **presentation** - Conatins the presentation of our group  **AI_ML_SSD** named **AI/ML driven Low Latency Closed Loop Control**
+- **training** - This folder conatins the code for training the model for problem statement 1 and 2.
+      - **task1.py** - this script contains the code that reads the test set  and predicts the specified output for Task Problem Statement I: Slip Detection and Force Estimation in CSV format (one per line). The format of test set will be same as pre-evaluation dataset (i.e., the path will be the root folder containing all CSV files in the testset)
+- **testing** - This folder conatins the code for testing the model for problem statement 1 and 2.
+
 
 - task2.py, this script contains the code that reads the test set and predicts the specified output for Task Problem Statement II: Object Detection in CSV format (one per line). A sample output is here. The format of test set will be same as pre-evaluation dataset (i.e., the path will be the complete path to ONE AND ONLY CSV file in the testset)
 
