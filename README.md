@@ -1,5 +1,5 @@
 # ITU-ML5G-PS-010-AI_ML_SSD-BYOC-Build-your-own-Closed-loop
-This repository contains the code and description of team AI_ML_SSD for 2022 ITU AI/ML in 5G Challenge. We identified 2 problems  based on the Low Latency Closed Loop between the haptic hands and algorithms and the real robotic hand (Allegro Hand) using MEC.
+This repository contains the code and description of team AI_ML_SSD for 2022 ITU AI/ML in 5G Challenge. We identified 2 problems  based on the Low Latency Closed Loop between the haptic gloves and algorithms and the real robotic hand (Allegro Hand) using MEC.
 
 
 
