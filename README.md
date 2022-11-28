@@ -21,6 +21,7 @@ For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and do
 - **neo4j_graphs** - Conatins the code needed to generate the graphs.
 - **presentation** - Conatins the presentation of our group  **AI_ML_SSD** named **AI/ML driven Low Latency Closed Loop Control**
 - **training** - This folder conatins the code for training the model for problem statement 1 and 2.
+- 
       - **task1.py** - this script contains the code that reads the test set  and predicts the specified output for Task Problem Statement I: Slip Detection and Force Estimation in CSV format (one per line). The format of test set will be same as pre-evaluation dataset (i.e., the path will be the root folder containing all CSV files in the testset)
 - **testing** - This folder conatins the code for testing the model for problem statement 1 and 2.
 
