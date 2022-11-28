@@ -1,10 +1,10 @@
 # ITU-ML5G-PS-010-AI_ML_SSD-BYOC-Build-your-own-Closed-loop
-This repository contains the code and description of team AI_ML_SSD for 2022 ITU AI/ML in 5G Challenge
+This repository contains the code and description of team AI_ML_SSD for 2022 ITU AI/ML in 5G Challenge. We identified 2 problems  based on the Low Latency Closed Loop between the haptic hands and algorithms and the real robotic hand (Allegro Hand) using MEC.
 
 
 
 # Dataset
-For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and download the trainset for problem statement 1 and 2.
+For dataset visit https://bhartischool.iitd.ac.in/build_a_thon/index.html and download the training dataset for problem statement 1 and 2.
 # Use of the Files
 
 - task1.py, this script contains the code that reads the test set  and predicts the specified output for Task Problem Statement I: Slip Detection and Force Estimation in CSV format (one per line). The format of test set will be same as pre-evaluation dataset (i.e., the path will be the root folder containing all CSV files in the testset)
